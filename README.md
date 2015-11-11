@@ -1,9 +1,9 @@
-# [Vertical Rhythm](http://olafthecreator.github.io/vertical-rhythm)
+# Vertical Rhythm
 
 ## Description
 A SASS-based tool that let's any designer create a vertical rhythm while designing in the browser.
 
-## [DEMO](http://olafthecreator.github.io/vertical-rhythm/)
+## [DEMO](http://vicompany.github.io/vertical-rhythm/)
 A collection of examples that displays the effects of a proper vertical rhythm.
 
 ## How it works
