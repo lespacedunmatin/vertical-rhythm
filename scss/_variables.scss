@@ -15,7 +15,7 @@ $px-line-height:				24; // F.e. 24
 $base-font-size:				($px-font-size / 16) * 1rem;
 $base-line-height:				($px-line-height / $px-font-size);
 
-$rhythm:						($base-font-size * $base-line-height);
+$rhythm:					($base-font-size * $base-line-height);
 $rhythm-offset:					0.75; // Unitless value relative to 1em.
 
 // Cap height
@@ -46,7 +46,7 @@ $font-size-xl:					map-get($font-sizes, xl);
 $font-size-xxl:					map-get($font-sizes, xxl);
 
 // Weights
-$font-weight-normal:			400;
+$font-weight-normal:				400;
 $font-weight-bold:				700;
 
 //
@@ -59,10 +59,10 @@ $distance-s:					$rhythm * 1;
 $distance-m:					$rhythm * 2;
 $distance-l:					$rhythm * 4;
 
-$size-xs:						$rhythm * 0.5;
-$size-s:						$rhythm * 1;
-$size-m:						$rhythm * 2;
-$size-l:						$rhythm * 4;
+$size-xs:					$rhythm * 0.5;
+$size-s:					$rhythm * 1;
+$size-m:					$rhythm * 2;
+$size-l:					$rhythm * 4;
 
 //
 // Grid
@@ -81,24 +81,24 @@ $grid-breakpoints: 				(mobile: 0, small: 40rem, medium: 60rem, large: 80rem);
 //
 
 // Base
-$black:							#35342f;
-$white:							#ffffff;
-$gray:							#c6c6c6;
+$black:						#35342f;
+$white:						#ffffff;
+$gray:						#c6c6c6;
 $gray-light:					rgba($gray, 0.25);
 
-$blue:							#08327d;
-$red:							#f54123;
-$yellow:						#ffe33c;
+$blue:						#08327d;
+$red:						#f54123;
+$yellow:					#ffe33c;
 
-$brand:							$yellow;
+$brand:						$yellow;
 
-$bg-color:						$white;
+$bg-color:					$white;
 $bg-footer-color:				$bg-color;
 $rhythm-color:					lighten($blue, 50%);
 $text-color:					$black;
 
 // Anchors
-$anchor:						$text-color;
+$anchor:					$text-color;
 $anchor-hover:					$text-color;
 
 //
